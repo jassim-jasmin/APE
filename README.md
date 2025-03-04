@@ -129,8 +129,3 @@ Change the variable below in code
       ✅ Use reinforcement learning (RLHF) to improve prompt ranking
 
 
-
-
-git config --global user.name "Mohammed Jassim"
-git config --global user.email "mohammedjassim.jasmin@gmail.com"
-

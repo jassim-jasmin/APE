@@ -87,6 +87,9 @@ This project is open-source and licensed under the MIT License.
 
 
 # API Endpoint to generate optimized prompts
+
+
+```python
 @app.post("/generate_prompt")
 async def optimize_prompt(request: PromptRequest):
     try:
@@ -105,6 +108,7 @@ async def optimize_prompt(request: PromptRequest):
     except Exception as e:
         print(f"Exception: {e}")
         raise e
+```
 
 
 ### Other model options
@@ -127,5 +131,6 @@ Change the variable below in code
 
 
 
-
+git config --global user.name "Mohammed Jassim"
+git config --global user.email "mohammedjassim.jasmin@gmail.com"
 
